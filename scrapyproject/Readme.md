@@ -15,3 +15,9 @@ scrapy crawl books
 # We can also give a file name with the -o option to write the output to a file.
 
 scrapy crawl -o out.csv books
+
+# The book spider is now self-contained, making it straightforward to execute it. Just navigate your “spiders” folder in the Scrapy project and double-click the `books.py` file. Alternatively, you can open the command terminal in the “spiders” folder and run the scrapy runspider books.py command to run the spider. 
+
+
+# ref url
+https://oxylabs.io/blog/scrapy-web-scraping-tutorial
